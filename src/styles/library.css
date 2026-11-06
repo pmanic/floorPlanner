@@ -1,0 +1,233 @@
+.left-sidebar {
+  width: 238px;
+  flex-shrink: 0;
+  background: #fdfdfb;
+  border-right: 1px solid #e3e5dc;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 17px 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #d8ddcf transparent;
+}
+.sidebar-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 9px;
+  font-size: 9px;
+  letter-spacing: 1.4px;
+  font-weight: 600;
+  color: #8c9182;
+  margin-bottom: 16px;
+}
+.tiny-label {
+  font-size: 8px;
+  border: 1px solid #e1e5d9;
+  border-radius: 3px;
+  padding: 1px 4px;
+  letter-spacing: 0;
+  color: #a1a693;
+}
+.tool-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.tool-button {
+  height: 39px;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 0 11px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 11px;
+  color: #757b6b;
+}
+.tool-button span {
+  flex: 1;
+  text-align: left;
+}
+.tool-button kbd {
+  font-size: 9px;
+  font-family: inherit;
+  color: #a8ac9f;
+}
+.tool-button.active {
+  background: #edf0e4;
+  border-color: #e5e9d9;
+  color: #64783f;
+}
+.tool-button.active span {
+  font-weight: 600;
+}
+.tool-button.active kbd {
+  color: #7c8e5b;
+}
+.tool-button:hover:not(.active) {
+  background: #f3f4ee;
+}
+.tool-button:nth-child(6) {
+  margin-top: 5px;
+}
+.tool-button:nth-child(7) {
+  margin-top: 5px;
+  border-top-color: #e8eae2;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-top: 5px;
+  height: 44px;
+}
+.library-heading {
+  margin: 25px 7px 15px;
+  padding-top: 22px;
+  border-top: 1px solid #e6e8df;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #8e9781;
+}
+.eyebrow {
+  font-size: 8px;
+  letter-spacing: 1.7px;
+  color: #939b83;
+  font-weight: 600;
+}
+.library-heading h2 {
+  font-size: 13px;
+  font-weight: 550;
+  color: #4f5844;
+  margin: 5px 0 0;
+  letter-spacing: -0.2px;
+}
+.little-dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background: #8a9d5e;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+.search-box {
+  margin: 0 6px 10px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: #9a9f91;
+  border: 1px solid #e4e7dc;
+  background: #fff;
+  border-radius: 5px;
+  padding: 0 9px;
+  height: 31px;
+}
+.search-box input {
+  font-size: 10px;
+  background: transparent;
+  width: 100%;
+  outline: none;
+  height: 100%;
+}
+.search-box input::placeholder {
+  color: #a3a898;
+}
+.category-select {
+  position: relative;
+  margin: 0 6px 13px;
+}
+.category-select select {
+  appearance: none;
+  font-size: 10px;
+  width: 100%;
+  height: 32px;
+  border: 1px solid #e4e7dc;
+  border-radius: 4px;
+  padding: 0 10px;
+  background: #f8f9f4;
+  color: #737e62;
+}
+.category-select > svg {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  pointer-events: none;
+}
+.furniture-library {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px;
+  margin: 0 5px 20px;
+}
+.furniture-card {
+  flex-direction: column;
+  min-width: 0;
+  height: 112px;
+  background: #fff;
+  border: 1px solid #e7e9e0;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.furniture-card > svg {
+  height: 58px;
+  width: 65px;
+  margin: 2px 0 4px;
+}
+.furniture-card > span:not(.item-add) {
+  font-size: 9px;
+  font-weight: 500;
+  color: #707866;
+  max-width: 100%;
+  padding: 0 3px;
+}
+.furniture-card small {
+  font-size: 8px;
+  color: #a3a998;
+  margin-top: 3px;
+}
+.furniture-card:hover,
+.furniture-card.chosen {
+  border-color: #a3b282;
+  background: #f4f7ed;
+}
+.item-add {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #8d9e6d;
+  opacity: 0;
+}
+.furniture-card:hover .item-add,
+.furniture-card.chosen .item-add {
+  opacity: 1;
+}
+.no-results {
+  font-size: 11px;
+  grid-column: span 2;
+  color: #959d88;
+  padding: 15px;
+}
+.sidebar-bottom {
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-top: 1px solid #e9ebe2;
+  padding: 19px 4px 18px;
+  min-height: 71px;
+}
+.leaf-mark {
+  font-size: 31px;
+  color: #a7b18d;
+}
+.sidebar-bottom strong {
+  display: block;
+  font-size: 8px;
+  font-weight: 500;
+  color: #8b947d;
+}
+.sidebar-bottom div > span {
+  display: block;
+  font-size: 8px;
+  color: #aeb49f;
+  margin-top: 4px;
+}

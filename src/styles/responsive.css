@@ -1,0 +1,367 @@
+@media (min-width: 1600px) {
+  .left-sidebar {
+    width: 260px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+  .right-sidebar {
+    width: 265px;
+  }
+  .furniture-card {
+    height: 125px;
+  }
+  .furniture-card > svg {
+    height: 68px;
+  }
+  .inspector-section {
+    padding: 24px;
+  }
+  .canvas-paper-label {
+    top: 93px;
+  }
+  .topbar {
+    height: 83px;
+  }
+}
+@media (max-height: 850px) {
+  .left-sidebar {
+    padding-top: 18px;
+  }
+  .sidebar-heading {
+    margin-bottom: 10px;
+  }
+  .tool-button {
+    height: 34px;
+  }
+  .library-heading {
+    margin-top: 16px;
+    padding-top: 16px;
+    margin-bottom: 11px;
+  }
+  .furniture-card {
+    height: 99px;
+  }
+  .furniture-card > svg {
+    height: 48px;
+  }
+  .inspector-section {
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
+  .tip-card {
+    margin-top: 16px;
+  }
+  .tip-card p {
+    font-size: 14px;
+  }
+  .right-sidebar .help-button {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .sidebar-bottom {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    min-height: 60px;
+  }
+}
+@media (max-width: 1150px) {
+  .left-sidebar {
+    width: 210px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .right-sidebar {
+    width: 215px;
+  }
+  .header-actions {
+    gap: 12px;
+  }
+  .topbar {
+    padding: 0 19px;
+  }
+  .export-button > span {
+    display: none;
+  }
+  .inspector-section {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .canvas-hint {
+    font-size: 8px;
+  }
+  .canvas-paper-label {
+    font-size: 7px;
+    left: 20px;
+  }
+  .tip-card {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .properties-heading {
+    padding: 0 17px;
+  }
+  .canvas-top {
+    padding: 0 14px;
+  }
+  .canvas-bottom {
+    left: 14px;
+    right: 14px;
+  }
+}
+@media (max-width: 900px) {
+  .right-sidebar {
+    position: absolute;
+    right: 0;
+    top: 77px;
+    bottom: 30px;
+    z-index: 25;
+    width: 235px;
+    box-shadow: -6px 0 20px #4f5d2912;
+  }
+  .canvas-top-actions {
+    margin-right: 0;
+  }
+  .header-actions {
+    gap: 10px;
+  }
+  .unit-control > span {
+    display: none;
+  }
+  .topbar > .flex {
+    gap: 13px;
+  }
+  .avatar {
+    display: none;
+  }
+  .canvas-hint {
+    max-width: calc(100% - 140px);
+  }
+  .local-label {
+    display: none;
+  }
+  .coordinate {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  .topbar {
+    height: 66px;
+    padding: 0 13px;
+  }
+  .brand {
+    font-size: 25px;
+  }
+  .brand-mark {
+    transform: scale(0.8);
+    margin-right: 3px;
+    width: 27px;
+  }
+  .topbar > .flex {
+    gap: 9px;
+  }
+  .topbar .header-divider {
+    display: none;
+  }
+  .project-title {
+    max-width: 135px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 10px;
+    gap: 4px;
+  }
+  .save-status {
+    font-size: 8px;
+  }
+  .header-actions .primary-button {
+    width: 33px;
+    min-height: 32px;
+    padding: 0;
+  }
+  .header-actions .primary-button span {
+    display: none;
+  }
+  .export-button {
+    display: none;
+  }
+  .header-actions {
+    gap: 8px;
+  }
+  .segmented button {
+    min-width: 27px;
+    height: 23px;
+    font-size: 9px;
+  }
+  .left-sidebar {
+    width: 166px;
+    padding: 16px 8px 0;
+  }
+  .sidebar-heading {
+    font-size: 7px;
+    letter-spacing: 0.8px;
+    padding: 0 5px;
+  }
+  .tool-button {
+    gap: 8px;
+    padding: 0 7px;
+    font-size: 9px;
+    height: 34px;
+  }
+  .tool-button > svg {
+    width: 16px;
+  }
+  .tool-button kbd {
+    font-size: 8px;
+  }
+  .library-heading {
+    margin: 16px 4px 10px;
+    padding-top: 16px;
+  }
+  .library-heading h2 {
+    font-size: 10px;
+  }
+  .library-heading > svg {
+    display: none;
+  }
+  .eyebrow {
+    font-size: 7px;
+  }
+  .search-box {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0 6px;
+  }
+  .search-box input {
+    font-size: 9px;
+  }
+  .category-select {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+  .furniture-library {
+    gap: 5px;
+    margin: 0 2px 15px;
+  }
+  .furniture-card {
+    height: 91px;
+  }
+  .furniture-card > svg {
+    width: 48px;
+    height: 44px;
+  }
+  .furniture-card > span:not(.item-add) {
+    font-size: 8px;
+  }
+  .furniture-card small {
+    font-size: 6px;
+  }
+  .sidebar-bottom {
+    gap: 5px;
+  }
+  .sidebar-bottom strong,
+  .sidebar-bottom div > span {
+    font-size: 6px;
+  }
+  .leaf-mark {
+    font-size: 25px;
+  }
+  .right-sidebar {
+    top: 66px;
+    bottom: 27px;
+    width: 215px;
+  }
+  .canvas-top {
+    height: 47px;
+    padding: 0 10px;
+  }
+  .plan-tab {
+    font-size: 8px;
+    padding: 0 6px;
+    gap: 5px;
+  }
+  .tab-badge {
+    display: none;
+  }
+  .canvas-top-actions button {
+    width: 23px;
+  }
+  .canvas-top-actions > span,
+  .canvas-top-actions button:first-child {
+    display: none;
+  }
+  .canvas-paper-label {
+    top: 109px;
+    left: 14px;
+    font-size: 6px;
+    letter-spacing: 1px;
+  }
+  .history-controls {
+    top: 54px;
+    right: 10px;
+  }
+  .canvas-bottom {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    gap: 9px;
+    bottom: 13px;
+    right: 10px;
+    left: 10px;
+  }
+  .canvas-hint {
+    max-width: 100%;
+    font-size: 7px;
+    gap: 5px;
+    align-self: flex-start;
+  }
+  .hint-icon {
+    display: none;
+  }
+  .canvas-compass {
+    right: 18px;
+    bottom: 108px;
+  }
+  .statusbar {
+    height: 27px;
+    font-size: 6px;
+    padding: 0 11px;
+  }
+  .statusbar > div {
+    gap: 5px;
+  }
+  .status-separator {
+    margin: 0 2px;
+  }
+  .statusbar svg {
+    width: 11px;
+  }
+  .properties-heading {
+    height: 52px;
+  }
+  .modal {
+    padding: 26px;
+  }
+  .modal h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 420px) {
+  .project-title {
+    max-width: 90px;
+  }
+  .brand {
+    font-size: 22px;
+  }
+  .brand-mark {
+    margin-left: -4px;
+    margin-right: 0;
+  }
+  .topbar {
+    padding: 0 10px;
+  }
+  .header-actions {
+    gap: 5px;
+  }
+  .topbar > .flex {
+    gap: 7px;
+  }
+}

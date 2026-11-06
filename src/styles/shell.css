@@ -1,0 +1,150 @@
+.app-shell {
+  height: 100dvh;
+  min-height: 570px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.topbar {
+  height: 77px;
+  flex-shrink: 0;
+  padding: 0 26px;
+  background: #fff;
+  border-bottom: 1px solid #e7e9e1;
+  z-index: 30;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-size: 31px;
+  font-weight: 650;
+  letter-spacing: -1.8px;
+  line-height: 1;
+}
+.brand-dot {
+  color: #809052;
+}
+.brand-mark {
+  display: inline-flex;
+  position: relative;
+  width: 30px;
+  height: 32px;
+  margin-right: 10px;
+  transform: rotate(0deg);
+}
+.brand-mark span {
+  position: absolute;
+  background: #75854f;
+  display: block;
+  border-radius: 1px;
+}
+.brand-mark span:nth-child(1) {
+  height: 29px;
+  width: 7px;
+  left: 1px;
+  top: 2px;
+}
+.brand-mark span:nth-child(2) {
+  height: 7px;
+  width: 27px;
+  left: 1px;
+  top: 2px;
+}
+.brand-mark span:nth-child(3) {
+  height: 7px;
+  width: 19px;
+  left: 1px;
+  top: 14px;
+}
+.header-divider {
+  display: block;
+  width: 1px;
+  height: 28px;
+  background: #e7e9e1;
+}
+.project-control {
+  position: relative;
+}
+.project-title {
+  font-size: 13px;
+  gap: 11px;
+  font-weight: 600;
+  padding: 2px 0;
+}
+.save-status {
+  font-size: 10px;
+  color: #92978a;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 4px;
+}
+.save-status > span {
+  width: 5px;
+  height: 5px;
+  background: #8e9e70;
+  border-radius: 50%;
+}
+.save-status .saving {
+  background: #c7ac79;
+}
+.unit-control > span {
+  font-size: 11px;
+  color: #818675;
+}
+.segmented {
+  padding: 3px;
+  background: #f1f2ec;
+  display: flex;
+  border-radius: 6px;
+}
+.segmented button {
+  min-width: 36px;
+  height: 26px;
+  color: #94988d;
+  font-size: 11px;
+  border-radius: 4px;
+}
+.segmented button.active {
+  background: #fff;
+  color: #525f3b;
+  box-shadow: 0 1px 4px #0000000d;
+  font-weight: 600;
+}
+.quiet-button {
+  gap: 8px;
+  font-size: 11px;
+  font-weight: 500;
+}
+.quiet-button:hover {
+  color: #788c4e;
+}
+.primary-button {
+  min-height: 37px;
+  padding: 0 15px;
+  gap: 9px;
+  border-radius: 6px;
+  background: #75864f;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 550;
+  box-shadow: 0 1px 2px #0000000b;
+}
+.primary-button:hover {
+  background: #647640;
+}
+.avatar {
+  height: 31px;
+  width: 31px;
+  border: 1px solid #dedfcf;
+  border-radius: 50%;
+  font-size: 11px;
+  background: #eeeee3;
+  color: #73775e;
+  margin-left: -3px;
+}
+.workspace {
+  display: flex;
+  min-height: 0;
+  flex: 1;
+}
